@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework.authtoken',
-    'rest_framework'
+    'rest_framework',
+    'rest_framework_swagger',
+    'drf_yasg',
 ]
 
 REST_FRAMEWORK = {
@@ -87,6 +89,15 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'sharebite.wsgi.application'
 
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'api_key': {
+            'type': 'apiKey',
+            'in': 'header',
+            'name': 'Authorization'
+        }
+    },
+}
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases

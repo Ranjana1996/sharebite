@@ -6,9 +6,6 @@ from .models import Item, Section, Modifier
 from .serializer import ItemSerializer, SectionSerializer, ModifierSerializer, UserSerializer
 from django.contrib.auth.models import User
 
-
-# Create your views here.
-
 class ModifierViewSet(viewsets.ModelViewSet):
     queryset = Modifier.objects.all()
     serializer_class = ModifierSerializer
