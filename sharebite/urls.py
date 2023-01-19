@@ -20,7 +20,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 from django.contrib.auth.models import User
 from restaurantdb.views import ModifierViewSet, ItemViewSet, SectionViewSet ,UserViewSet
 
-router = DefaultRouter()
+router = DefaultRouter(trailing_slash=False)
 router.register(r'api/users', UserViewSet, basename='user')
 router.register(r'api/modifier', ModifierViewSet, basename='modifier')
 router.register(r'api/item', ItemViewSet, basename='item')
