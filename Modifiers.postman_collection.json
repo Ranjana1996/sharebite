@@ -1,0 +1,624 @@
+{
+	"info": {
+		"_postman_id": "692b4987-2cb3-47b6-93bd-b853416cab42",
+		"name": "Modifiers",
+		"description": "To test out GET/POST/PATCH/PUT/DELETE for Sections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25348258"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8100/api/modifier",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/modifier",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"modifier"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/modifier",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/modifier",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"modifier"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:23:17 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "73"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 2,\n        \"description\": \"less sweet\"\n    },\n    {\n        \"id\": 3,\n        \"description\": \"less salty\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:8100/api/modifier/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/modifier/2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"modifier",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/modifier/2",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/modifier/2",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"modifier",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:24:53 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "35"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 2,\n    \"description\": \"less sweet\"\n}"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:8100/api/modifers/2(on delete its reflected in items and Items have one modifier lesser)",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/modifier/2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"modifier",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/modifers/2(on delete its reflected in items and Items have one modifier lesser)",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/modifier/2",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"modifier",
+								"2"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:27:53 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:8100/api/modifier",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"description\": \"less spicy\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/modifier",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"modifier"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/modifier",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \r\n        \"description\": \"less spicy\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/modifier",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"modifier"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:28:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "35"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 4,\n    \"description\": \"less spicy\"\n}"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:8100/api/modifier/4",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Breakfast Specials Today\",\r\n    \"description\": \"Lets see the special Breakfast menu\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/section/15",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"section",
+						"15"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/section/15",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"description\": \"Less Spicy\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/modifier/4",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"modifier",
+								"4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:29:46 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "35"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 4,\n    \"description\": \"Less Spicy\"\n}"
+				}
+			]
+		}
+	]
+}

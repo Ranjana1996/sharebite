@@ -1,0 +1,746 @@
+{
+	"info": {
+		"_postman_id": "30d5621d-1fc4-48a2-9cff-b162797e1133",
+		"name": "Section",
+		"description": "To test out GET/POST/PATCH/PUT/DELETE for Sections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25348258"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8100/api/section",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/section",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"section"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/section",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/section",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"section"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:13:58 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "550"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 11,\n        \"name\": \"Lunch Specials2\",\n        \"description\": \"Lets see the special lunch menu\",\n        \"items\": [\n            {\n                \"id\": 7,\n                \"name\": \"kichdi111\",\n                \"description\": \"rich lentil stew\",\n                \"price\": \"40.0000000000\",\n                \"modifiers\": [\n                    {\n                        \"id\": 2,\n                        \"description\": \"less sweet\"\n                    },\n                    {\n                        \"id\": 3,\n                        \"description\": \"less salty\"\n                    }\n                ],\n                \"section\": {\n                    \"id\": 11,\n                    \"name\": \"Lunch Specials2\",\n                    \"description\": \"Lets see the special lunch menu\"\n                }\n            }\n        ]\n    },\n    {\n        \"id\": 9,\n        \"name\": \"Dinner Specials55\",\n        \"description\": \"Lets see the special Dinner menu\",\n        \"items\": []\n    },\n    {\n        \"id\": 14,\n        \"name\": \"Lunch Specials256\",\n        \"description\": \"Lets see the special lunch menu\",\n        \"items\": []\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:8100/api/section/11",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/section",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"section"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/section/11",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/section/11",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"section",
+								"11"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:15:33 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "356"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 11,\n    \"name\": \"Lunch Specials2\",\n    \"description\": \"Lets see the special lunch menu\",\n    \"items\": [\n        {\n            \"id\": 7,\n            \"name\": \"kichdi111\",\n            \"description\": \"rich lentil stew\",\n            \"price\": \"40.0000000000\",\n            \"modifiers\": [\n                {\n                    \"id\": 2,\n                    \"description\": \"less sweet\"\n                },\n                {\n                    \"id\": 3,\n                    \"description\": \"less salty\"\n                }\n            ],\n            \"section\": {\n                \"id\": 11,\n                \"name\": \"Lunch Specials2\",\n                \"description\": \"Lets see the special lunch menu\"\n            }\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:8100/api/section/11(on delete even items in the section get deleted)",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/section/11",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"section",
+						"11"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/section/11",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/section/11",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"section",
+								"11"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:21:09 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:8100/api/section",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/section",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"section"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/section",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Breakfast Specials\",\r\n    \"description\": \"Lets see the special Breakfast menu\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/section",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"section"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:17:49 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, POST, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "100"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 15,\n    \"name\": \"Breakfast Specials\",\n    \"description\": \"Lets see the special Breakfast menu\",\n    \"items\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:8100/api/section/15",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Breakfast Specials Today\",\r\n    \"description\": \"Lets see the special Breakfast menu\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/section/15",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"section",
+						"15"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/section/15",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Breakfast Specials Today\",\r\n    \"description\": \"Lets see the special Breakfast menu\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/section/15",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"section",
+								"15"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:18:40 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "106"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 15,\n    \"name\": \"Breakfast Specials Today\",\n    \"description\": \"Lets see the special Breakfast menu\",\n    \"items\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:8100/api/section/15 Copy",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n    \"description\": \"Lets see the special Breakfast menu for Today\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8100/api/section/15",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8100",
+					"path": [
+						"api",
+						"section",
+						"15"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8100/api/section/15 Copy",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Token ccca9a7ec2165110088f28eb55218d2e5bf048a2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"description\": \"Lets see the special Breakfast menu for Today\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8100/api/section/15",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8100",
+							"path": [
+								"api",
+								"section",
+								"15"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 19 Jan 2023 23:19:41 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.11.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "116"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 15,\n    \"name\": \"Breakfast Specials Today\",\n    \"description\": \"Lets see the special Breakfast menu for Today\",\n    \"items\": []\n}"
+				}
+			]
+		}
+	]
+}
