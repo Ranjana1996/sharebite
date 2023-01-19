@@ -20,7 +20,7 @@
 - use the api to authorize in the swagger UI and try out all the APIs
 
 ### Test and Examples 
-- I have tested out a few happy paths and sad paths. Postman request-response collection has been added in the tests folder
+- I have tested out a few happy paths and sad paths. Postman request-response collection has been added for the same
 
 #### Note: Please contact me at ranjana.seshadri@tamu.edu/ranjana.seshadri@gmail.com if any additional details/clarifications is requred
 
