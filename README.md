@@ -1,6 +1,6 @@
 # sharebite
-## This file describes how to use download and use the application based on the specifications given in the ShareBite Challenge PDF
-## An ER diagram can be found in the sharebite folder 
+### This file describes how to download and use the application based on the specifications given in the Sharebite Challenge PDF
+### An ER diagram can be found in the sharebite folder 
 
 ### Project Requirements/Specifications 
 - The application has all the CRUD operations related to Section,Item and Modifiers 
@@ -22,6 +22,6 @@
 ### Test and Examples 
 - I have tested out a few happy paths and sad paths. Postman request-response collection has been added for the same
 
-#### Note: Please contact me at ranjana.seshadri@tamu.edu/ranjana.seshadri@gmail.com if any additional details/clarifications is requred
+#### Note: Please contact me at ranjana.seshadri@tamu.edu/ranjana.seshadri@gmail.com if any additional details/clarifications is required
 
 
